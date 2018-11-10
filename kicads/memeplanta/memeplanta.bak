@@ -1,0 +1,275 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:memeplanta-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R_Small R2
+U 1 1 5BB937F3
+P 6500 3500
+F 0 "R2" H 6530 3520 50  0000 L CNN
+F 1 "220ohm" H 6530 3460 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6500 3500 50  0001 C CNN
+F 3 "" H 6500 3500 50  0000 C CNN
+	1    6500 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D1
+U 1 1 5BB93916
+P 6950 3150
+F 0 "D1" H 6950 3250 50  0000 C CNN
+F 1 "LED" H 6950 3050 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 6950 3150 50  0001 C CNN
+F 3 "" H 6950 3150 50  0000 C CNN
+	1    6950 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D2
+U 1 1 5BB94125
+P 6950 3500
+F 0 "D2" H 6950 3600 50  0000 C CNN
+F 1 "LED" H 6950 3400 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 6950 3500 50  0001 C CNN
+F 3 "" H 6950 3500 50  0000 C CNN
+	1    6950 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D3
+U 1 1 5BB94178
+P 6950 3900
+F 0 "D3" H 6950 4000 50  0000 C CNN
+F 1 "LED" H 6950 3800 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 6950 3900 50  0001 C CNN
+F 3 "" H 6950 3900 50  0000 C CNN
+	1    6950 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D4
+U 1 1 5BB941CF
+P 6950 4250
+F 0 "D4" H 6950 4350 50  0000 C CNN
+F 1 "LED" H 6950 4150 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 6950 4250 50  0001 C CNN
+F 3 "" H 6950 4250 50  0000 C CNN
+	1    6950 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D5
+U 1 1 5BB94264
+P 6950 4600
+F 0 "D5" H 6950 4700 50  0000 C CNN
+F 1 "LED" H 6950 4500 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 6950 4600 50  0001 C CNN
+F 3 "" H 6950 4600 50  0000 C CNN
+	1    6950 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_Small R3
+U 1 1 5BB942BF
+P 6500 3900
+F 0 "R3" H 6530 3920 50  0000 L CNN
+F 1 "R_Small" H 6530 3860 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6500 3900 50  0001 C CNN
+F 3 "" H 6500 3900 50  0000 C CNN
+	1    6500 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Small R1
+U 1 1 5BB94356
+P 6500 3150
+F 0 "R1" H 6530 3170 50  0000 L CNN
+F 1 "R_Small" H 6530 3110 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6500 3150 50  0001 C CNN
+F 3 "" H 6500 3150 50  0000 C CNN
+	1    6500 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Small R4
+U 1 1 5BB9438D
+P 6500 4250
+F 0 "R4" H 6530 4270 50  0000 L CNN
+F 1 "R_Small" H 6530 4210 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6500 4250 50  0001 C CNN
+F 3 "" H 6500 4250 50  0000 C CNN
+	1    6500 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Small R5
+U 1 1 5BB943D8
+P 6500 4600
+F 0 "R5" V 6500 4550 50  0000 L CNN
+F 1 "R_Small" V 6400 4550 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6500 4600 50  0001 C CNN
+F 3 "" H 6500 4600 50  0000 C CNN
+	1    6500 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74HC595 U1
+U 1 1 5BB95642
+P 5150 4050
+F 0 "U1" H 5300 4650 50  0000 C CNN
+F 1 "74HC595" H 5150 3450 50  0000 C CNN
+F 2 "SMD_Packages:SO-16-N" H 5150 4050 50  0001 C CNN
+F 3 "" H 5150 4050 50  0000 C CNN
+	1    5150 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5BB9593A
+P 7900 3900
+F 0 "#PWR01" H 7900 3650 50  0001 C CNN
+F 1 "GND" H 7900 3750 50  0000 C CNN
+F 2 "" H 7900 3900 50  0000 C CNN
+F 3 "" H 7900 3900 50  0000 C CNN
+	1    7900 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5850 3900 6400 3900
+Wire Wire Line
+	6600 3900 6800 3900
+Wire Wire Line
+	5850 3800 6300 3800
+Wire Wire Line
+	6300 3800 6300 3500
+Wire Wire Line
+	6300 3500 6400 3500
+Wire Wire Line
+	5850 3700 6150 3700
+Wire Wire Line
+	6150 3700 6150 3150
+Wire Wire Line
+	6150 3150 6400 3150
+Wire Wire Line
+	5850 4000 6300 4000
+Wire Wire Line
+	6300 4000 6300 4250
+Wire Wire Line
+	6300 4250 6400 4250
+Wire Wire Line
+	5850 4100 6150 4100
+Wire Wire Line
+	6150 4100 6150 4600
+Wire Wire Line
+	6150 4600 6400 4600
+Wire Wire Line
+	6600 3150 6800 3150
+Wire Wire Line
+	6600 3500 6800 3500
+Wire Wire Line
+	6600 4250 6800 4250
+Wire Wire Line
+	6600 4600 6800 4600
+Wire Wire Line
+	7100 3150 7400 3150
+Wire Wire Line
+	7400 3150 7400 4600
+Wire Wire Line
+	7400 3500 7100 3500
+Wire Wire Line
+	7400 4600 7100 4600
+Connection ~ 7400 3500
+Wire Wire Line
+	7100 4250 7400 4250
+Connection ~ 7400 4250
+Wire Wire Line
+	7100 3900 7900 3900
+Connection ~ 7400 3900
+$Comp
+L CONN_01X06 P1
+U 1 1 5BBAB0D4
+P 4100 3950
+F 0 "P1" H 4100 4300 50  0000 C CNN
+F 1 "CONN_01X06" V 4200 3950 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 4100 3950 50  0001 C CNN
+F 3 "" H 4100 3950 50  0000 C CNN
+	1    4100 3950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 4200 4300 4200
+Wire Wire Line
+	4450 4100 4300 4100
+Wire Wire Line
+	4450 3900 4450 4000
+Wire Wire Line
+	4450 4000 4300 4000
+Wire Wire Line
+	4450 3800 4400 3800
+Wire Wire Line
+	4400 3800 4400 3900
+Wire Wire Line
+	4400 3900 4300 3900
+Wire Wire Line
+	4450 3600 4450 3750
+Wire Wire Line
+	4450 3750 4350 3750
+Wire Wire Line
+	4350 3750 4350 3800
+Wire Wire Line
+	4350 3800 4300 3800
+Wire Wire Line
+	4300 3700 4350 3700
+Wire Wire Line
+	4350 3700 4350 3400
+Wire Wire Line
+	4350 3400 6050 3400
+Wire Wire Line
+	6050 3400 6050 3050
+Wire Wire Line
+	6050 3050 7650 3050
+Wire Wire Line
+	7650 3050 7650 3900
+Connection ~ 7650 3900
+$EndSCHEMATC
